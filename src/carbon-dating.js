@@ -17,8 +17,6 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
-let a = ['10.98064159551825'];
-a.map(v => console.log(dateSample(v)));
 
 function dateSample(sampleActivity) {
   let r = false;
